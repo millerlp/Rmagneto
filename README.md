@@ -27,8 +27,8 @@ DEALINGS IN THE SOFTWARE.
 
 Modified for use with R 3.1.3 by Luke Miller July 2015
 
-The files Rmagneto.c, and Rmagneto.h should be sufficient to compile a Windows dll file Rmagneto.dll for R which 
-will implement a single function to be called from R, 'calibrate'. 
+The files `Rmagneto.c` and `Rmagneto.h` should be sufficient to compile a Windows dll file `Rmagneto.dll` for R which 
+will implement a single function to be called from R, `calibrate`. 
 
 // For the calibrate function, from R we will expect to receive pointers to 3 input vectors
 // X, Y, Z, which for now will be double precision floating point values.
