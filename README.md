@@ -30,14 +30,14 @@ Modified for use with R 3.1.3 by Luke Miller July 2015
 The files `Rmagneto.c` and `Rmagneto.h` should be sufficient to compile a Windows dll file `Rmagneto.dll` for R which 
 will implement a single function to be called from R, `calibrate`. 
 
-// For the calibrate function, from R we will expect to receive pointers to 3 input vectors
-// X, Y, Z, which for now will be double precision floating point values.
-// norm will be a floating point value for the local magnetic field total norm (or 
-// acceleration norm of 1000 milli-g). 
-// b will be an empty 1x3 vector to hold the offset corrections output data
-// Xcorr will be an empty 1x3 vector to hold the coefficients for the X-axis 
-// scaling + soft iron correction
-// Ycorr will be an empty 1x3 vector to hold the coefficients for the Y-axis 
-// scaling + soft iron correction
-// Zcorr will be an empty 1x3 vector to hold the coefficients for the Z-axis 
-// scaling + soft iron correction
+For the `calibrate` function, from R we will expect to receive pointers to 3 input vectors
+`X, Y, Z`, which will be double precision floating point values.
+`norm` will be a floating point value for the local magnetic field total norm (or 
+acceleration norm of 1000 milli-g). 
+`b` will be an empty 1x3 vector to hold the offset corrections output data
+`Xcorr` will be an empty 1x3 vector to hold the coefficients for the X-axis 
+scaling + soft iron correction
+`Ycorr` will be an empty 1x3 vector to hold the coefficients for the Y-axis 
+scaling + soft iron correction
+`Zcorr` will be an empty 1x3 vector to hold the coefficients for the Z-axis 
+scaling + soft iron correction
