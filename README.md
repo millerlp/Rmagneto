@@ -1,20 +1,20 @@
 Rmagneto
 R-compatible port of Merlin Oz's C functions to implement magnetometer and accelerometer ellipsoid corrections
 
-	```
-	Rmagneto.c, a program to calculate bias corrections for
-	magnetometer and accelerometer data using an algorithm derived from
-	Li, Q. and J.G. Griffiths (2004). Least squares ellipsoid specific fitting. Geometric Modeling and Processing, 2004. Proceedings, IEEE
+```
+Rmagneto.c, a program to calculate bias corrections for
+magnetometer and accelerometer data using an algorithm derived from
+Li, Q. and J.G. Griffiths (2004). Least squares ellipsoid specific fitting. Geometric Modeling and Processing, 2004. Proceedings, IEEE
 	
-	as implemented by Merlin Oz 2013.
-	https://sites.google.com/site/sailboatinstruments1/home
-	Copyright (C) 2013 www.sailboatinstruments.blogspot.com
-  
-  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
-  associated documentation files (the "Software"), to deal in the Software without restriction, including 
-  without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
-  copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the 
-  following conditions:
+as implemented by Merlin Oz 2013.
+https://sites.google.com/site/sailboatinstruments1/home
+Copyright (C) 2013 www.sailboatinstruments.blogspot.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
+associated documentation files (the "Software"), to deal in the Software without restriction, including 
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the 
+following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
