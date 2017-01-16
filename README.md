@@ -1,7 +1,8 @@
 Rmagneto
 R-compatible port of Merlin Oz's C functions to implement magnetometer and accelerometer ellipsoid corrections
 
-	```Rmagneto.c, a program to calculate bias corrections for
+	```
+	Rmagneto.c, a program to calculate bias corrections for
 	magnetometer and accelerometer data using an algorithm derived from
 	Li, Q. and J.G. Griffiths (2004). Least squares ellipsoid specific fitting. Geometric Modeling and Processing, 2004. Proceedings, IEEE
 	
@@ -21,7 +22,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
 THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
 CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
-DEALINGS IN THE SOFTWARE.```
+DEALINGS IN THE SOFTWARE.
+```
 
 Modified for use with R 3.1.3 by Luke Miller July 2015
 
